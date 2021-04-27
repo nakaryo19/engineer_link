@@ -18,7 +18,6 @@ if (!$result){
     $history = $article->findByHistory($_GET['id']);
 }
 
-
 ?>
 
 <!DOCTYPE html>
