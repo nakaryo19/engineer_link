@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+h2{
+  color: #eee;
+  font-weight: 400;
+}
+
+
+a:hover{
+  opacity: 0.7;
+}
+
+.form_wrap{
+  background-color: green;
+  width: 100%;
+  height: auto;
+  margin: 70px auto 100px auto;
+  padding: 60px 0 60px 0;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.prof_icon img{
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  padding-right: 250px;
+  object-fit: cover;
+}
+
+.prof_name{
+  color: #eee;
+  font-size: 20px;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+
+.follow_wrap{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 30px 250px 0 270px;
+}
+
+.follow_wrap a {
+  display: block;
+}
+
+.post_wrapper h2{
+  margin-top: 100px;
+}
+
+.post_flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+
+/* いいね */
+.btn-good{
+  display: inline-block;
+  padding: 0 8px;
+  cursor: pointer;
+  color: #f44336;
+  font-size: 17px;
+  float: right;
+}
+.btn-good:hover{
+  color: #f44336;
+  opacity: 0.8;
+}
+.active{
+  color: #f44336;
+}
+.btn-good .active{
+  color: #f44336;
+}
+
+.btn-good span{
+  margin-left: 3px;
+}

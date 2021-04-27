@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+h2{
+  margin: 55px 0;
+  color: #eee;
+  font-weight: 400;
+}
+
+.user_form{
+  background-color: green;
+  width: 550px;
+  height: auto;
+  margin: 70px auto;
+  padding: 20px 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.new_pass{
+  color: #eee;
+}
+
+.pass,.pass_conf{
+  display: block;
+  width: 360px;
+  height:45px;
+  padding:0 15px; 
+  outline:0;
+  background:#eee;
+  border:solid 0.5px #A9A9A9;
+  border-radius:5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.pass{
+  margin: 70px auto 40px auto;
+}
+.pass_conf{
+  margin: 0 auto 15px auto;
+}
+
+
+
+.submit{
+  color: #fff;  
+  background-color: red;
+  width: 230px;
+  padding: 10px 15px;
+  border:solid 2px #eee;
+  border-radius: 23px;
+  margin: 60px auto 55px auto;
+  display: block;
+  font-size: 17px;
+  outline: none;
+}

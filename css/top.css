@@ -1,0 +1,156 @@
+@charset "UTF-8";
+body{
+  background-color: green;
+}
+
+.top img{
+  position:relative;
+  width: 100%;
+}
+
+.user_photo img{
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  padding-right: 250px;
+  object-fit: cover;
+}
+
+
+.profile{
+  color: #eee;
+  font-size: 20px;
+  position: relative;
+  bottom: 80px;
+  left: 50px;
+  text-align: center;
+}
+
+h3{
+  color: #555;
+  font-size: 20px;
+}
+
+.newpost_flex h3{
+  color: #eee;
+  text-align: center;
+}
+
+.new_post{
+  text-align: center;
+  justify-content:space-around;
+  display: inline;
+}
+
+
+
+/*カテゴリー検索ボタン*/
+.category_search{
+  margin: 50px 0;
+  text-align: center;
+}
+
+.category_search h3{
+  color: #eee;
+}
+
+.c_search_btn_wrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.c_search_btn{
+  width: 180px;
+  height: auto;
+}
+
+.c_search_btn:hover {
+  opacity: 0.6;
+}
+
+
+/* 検索フォーム */
+
+.keyword_search{
+  width: 600px;
+  margin: 70px auto 110px auto;
+  background-color: #eee;
+  padding: 10px 0 35px 50px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+}
+.keyword_search form{
+  position:relative;
+  margin-bottom:20px;
+}
+
+#search_form{
+  width: 480px;
+  height:47px;
+  padding:0 10px; 
+  left:0;
+  top:0; 
+  border-radius:2px;
+  outline:0;
+  background:#fff;
+  border:solid 0.5px #A9A9A9;
+  font-size: 15px;
+}
+
+#search_btn{
+  height:50px;
+  position:absolute; 
+  left:450px;/*アイコン左右の位置調整*/
+  top:0;
+  background:none;
+  color:#666;
+  border:none;
+  font-size:20px;/*アイコンサイズ*/
+}
+#search_btn:hover{
+  color:#ef7e6c;
+}
+
+.popular_keyword{
+  font-size: 13px;
+}
+
+.popular_keyword ul{
+  display: flex;
+  margin: -15px 0 0 -40px;
+}
+
+.popular_keyword a{
+  text-decoration: underline;
+  margin: 0 7px;
+}
+
+/* いいね */
+.btn-good{
+  display: inline-block;
+  padding: 0 8px;
+  cursor: pointer;
+  color: #f44336;
+  font-size: 17px;
+  margin-top: 15px;
+}
+.btn-good:hover{
+  color: #f44336;
+  opacity: 0.8;
+}
+.active{
+  color: #f44336;
+}
+.btn-good .active{
+  color: #f44336;
+}
+
+.btn-good span{
+  margin-left: 3px;
+}
+
+.article_all h3{
+  color: #eee;
+}

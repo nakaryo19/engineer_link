@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 120px;
+  background-color: #fcfcfc;
+}
+
+.all_wrapper{
+  min-height: 100vh; 
+  position: relative;
+  padding-bottom: 60px; 
+  box-sizing: border-box;
+  /* ↑ヘッダーやフッターを含むすべての要素の高さ＝min-height:100vhになるように指定 */
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+body{
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2{
+  margin: 50px 0 70px 0;
+  color: #eee;
+  font-weight: 400;
+}
+
+.login_form{
+  background-color: green;
+  width: 550px;
+  height: auto;
+  margin: 60px auto;
+  padding: 20px 10px 70px 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.input{
+  margin: 40px auto;
+  display: block;
+  width: 360px;
+  height:45px;
+  padding:0 15px; 
+  outline:0;
+  background:#eee;
+  border:solid 0.5px #A9A9A9;
+  border-radius:5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.sumit_btn{
+  color: #fff;  
+  background-color:red;
+  width: 190px;
+  padding: 10px 15px;
+  border:solid 2px #eee;
+  border-radius: 23px;
+  margin: 80px auto 60px auto;
+  display: block;
+  font-size: 17px;
+  outline: none;
+}
+
+.forget_pass{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin: 10px auto;
+  display: block;
+  width: 235px; 
+  font-size: 17px;
+}
+.signup{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin: 10px auto;
+  display: block;
+  width: 170px; 
+  font-size: 17px;
+}
